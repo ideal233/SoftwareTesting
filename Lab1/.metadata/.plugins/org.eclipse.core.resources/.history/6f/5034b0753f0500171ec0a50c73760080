@@ -1,0 +1,17 @@
+package st.lab1;
+
+import static org.junit.Assert.*;
+
+import org.junit.Before;
+import org.junit.Test;
+
+public class TriangleTest {
+
+	Triangle tri = new Triangle();
+
+	@Test
+	public void testTriangle() {
+		assertEquals("equilateral", tri.triangle(1, 2, 3));
+	}
+
+}
